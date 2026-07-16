@@ -11,7 +11,7 @@ from rdkit.Chem.Draw import rdMolDraw2D
 st.set_page_config(page_title="HTS Titration & Echo Mapper", page_icon="🧪", layout="wide")
 
 st.title("NCATS HTS Titration & Echo Mapping Engine")
-st.markdown("Designed for mapping compound titrations on 384-well source plates and generating transposed, color-coded 1536-well destination maps for Echo acoustic liquid handling.")
+st.markdown("Designed by Colin Gordy for mapping compound titrations on 384-well source plates and generating transposed, color-coded 1536-well destination maps for Echo acoustic liquid handling.")
 
 # --- Distinct Color Palette for the 12 Compounds + 1 DMSO ---
 COLORS = [
